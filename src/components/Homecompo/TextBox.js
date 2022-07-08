@@ -24,8 +24,8 @@ function TextBox() {
           <span className="date p-2">October 12-14, 2022</span>
         </div>
 
-        <Link to="/Registration" className="btnm mt-5">
-          Register Now &#8594;
+        <Link to="/papersubmission" className="btnm mt-5">
+          Paper Submission &#8594;
         </Link>
         <div className="row justify-content-center">
           <div className="col col-md-11 margin m-2 m-md-0 p-md-2">
