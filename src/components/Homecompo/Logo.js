@@ -13,7 +13,7 @@ function Logo() {
       </div>
       <div className="col-md-8 row">
         <div className="col">
-          <p className="text-center title">E-QMAT</p>
+          <p className="text-center title ">E-QMAT 2022</p>
         </div>
         <div className="col row justify-content-center">
           <Link to="/">

@@ -9,9 +9,9 @@ function TextBox() {
           style={{ lineHeight: "normal" }}
           className="h1 font-weight-bold text-center"
         >
-          CONFERENCE
-          <br /> ON <br />
-          EMERGENT PHENOMENA IN QUANTUM MATERIALS
+          Conference
+          <br /> on <br />
+          Emergent phenomena in Quantum MATerials <br /> (E-QMAT) 2022
         </p>
 
         <p id="iit" style={{ lineHeight: "normal" }} className="mt-5">
@@ -25,13 +25,14 @@ function TextBox() {
         </div>
 
         <Link to="/papersubmission" className="btnm mt-5">
-          Paper Submission &#8594;
+          Abstract Submission &#8594;
         </Link>
         <div className="row justify-content-center">
           <div className="col col-md-11 margin m-2 m-md-0 p-md-2">
             <p className="text-center font-weight-bold h5">
-              The conference proceedings are likely to be published online in
-              the Journal of Physics Conference Series (IOP Publishing).
+              The conference proceedings will be published online in the Journal
+              of Physics: Conference Series (IOP Publishing) after the peer
+              review.
             </p>
           </div>
         </div>

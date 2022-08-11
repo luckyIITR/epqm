@@ -58,7 +58,7 @@ function Nav() {
                 className="nav-link pl-4 pr-4 text-nowrap"
                 to="/papersubmission"
               >
-                PAPER SUBMISSION
+                ABSTRACT SUBMISSION
               </Link>
             </li>
             <li className="nav-item ">

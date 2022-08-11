@@ -15,7 +15,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename={"/epqm"}>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />

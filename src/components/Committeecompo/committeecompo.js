@@ -58,6 +58,10 @@ function committeecompo() {
           <h5 className="card-title font-weight-bold">Prof. A. Taraphder</h5>
           <p>Indian Institute of Technology, Kharagpur, India</p>
         </div>
+        <div className="col-sm-3 card mr-4 p-4 mt-4">
+          <h5 className="card-title font-weight-bold">Prof. S. M. Yusuf</h5>
+          <p>Bhabha Atomic Research Center (BARC) Mumbai</p>
+        </div>
       </div>
 
       {/* Technical Committee */}

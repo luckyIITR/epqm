@@ -2,50 +2,87 @@ import React from "react";
 
 var speakers = [
   {
-    name: "Prof. Anthony James Leggett",
-    affiliated: "University of Illinois at Urbana-Champaign, USA",
-    // title: "Professor Nobel Laureate",
-  },
-  {
-    name: "Prof. Albert Fert",
-    affiliated: "Paris-Saclay University, Paris, France",
-    // title: "Professor Nobel Laureate",
-  },
-  {
-    name: "Prof. G. Baskaran",
+    name: "G. Baskaran",
     affiliated: "Institute of mathematical sciences, Chennai, India",
-    // title: "Professor Bhatnagar awardee",
+    // title: "sor Bhatnagar awardee",
   },
   {
-    name: "Prof. E V Sampathkumaran",
-    affiliated: "Tata Institute of fundamental research, Mumbai, India",
+    name: "Suvankar Chakraverty",
+    affiliated: "INST Mohali",
   },
-  //   {
-  //     name: "Prof.  D D Sarma",
-  //     affiliated: "Indian Institute of Science, Bangalore, India",
-  //   },
   {
-    name: "Prof. Arindam Ghosh",
+    name: "Albert Fert",
+    affiliated: "Paris-Saclay University, Paris, France",
+    // title: "sor Nobel Laureate",
+  },
+  {
+    name: "Arindam Ghosh",
     affiliated: "Indian Institute of Science, Bangalore, India",
   },
   {
-    name: "Prof. Kalobaran Maiti",
+    name: "Anil Jain",
+    affiliated: "Bhaba Atomic Research centre (BARC), Mumbai, India",
+  },
+  {
+    name: "Kalobaran Maiti",
     affiliated: "Tata Institute of fundamental research, Mumbai, India",
   },
-  //   {
-  //     name: "Prof. Pratap Raychaudhuri",
-  //     affiliated: "Tata Institute of fundamental research, Mumbai, India",
-  //   },
   {
-    name: "Prof. R Ramesh",
+    name: "Anthony James Leggett",
+    affiliated: "University of Illinois at Urbana-Champaign, USA",
+    // title: "sor Nobel Laureate",
+  },
+  {
+    name: "R Ramesh",
     affiliated: "University of Berkeley, USA",
   },
+
+  {
+    name: "E V Sampathkumaran",
+    affiliated: "Tata Institute of fundamental research, Mumbai, India",
+  },
+  {
+    name: "D. D. Sarma",
+    affiliated: "Indian Institute of Science, Bangalore, India",
+  },
+
   //   {
-  //     name: "Prof. J C Seamus Davis",
+  //     name: " D D Sarma",
+  //     affiliated: "Indian Institute of Science, Bangalore, India",
+  //   },
+
+  //   {
+  //     name: "Pratap Raychaudhuri",
+  //     affiliated: "Tata Institute of fundamental research, Mumbai, India",
+  //   },
+
+  {
+    name: "Alok Shukla",
+    affiliated: "Indian Institute of Technology, Bombay, India",
+  },
+  {
+    name: "Kaushik Sen",
+    affiliated: "Indian Institute of Technology, Delhi, India",
+  },
+
+  {
+    name: "A. Taraphder",
+    affiliated: "Indian Institute of Technology, Kharagpur, India",
+  },
+  {
+    name: "S. M. Yusuf",
+    affiliated: "Bhabha Atomic Research Center (BARC) Mumbai",
+  },
+
+  //   {
+  //     name: "J C Seamus Davis",
   //     affiliated: "Oxford University, UK",
   //   },
 ];
-
+// speakers.sort((a, b) => {
+//   return a.name.split(" ").slice(-1)[0] < b.name.split(" ").slice(-1)[0];
+// });
+console.log(speakers);
 function Speakercomp() {
   return (
     <div className="container mb-5 pd-5">
