@@ -28,6 +28,13 @@ function TextBox() {
           Abstract Submission &#8594;
         </Link>
         <div className="row justify-content-center">
+          <div className="col col-md-11 m-2 m-md-0 p-md-2">
+            <p className="text-center font-weight-bold h5 text-warning">
+              *Abstract Submssion Deadline is extended to August 25, 2022.*
+            </p>
+          </div>
+        </div>
+        <div className="row justify-content-center">
           <div className="col col-md-11 margin m-2 m-md-0 p-md-2">
             <p className="text-center font-weight-bold h5">
               The conference proceedings will be published online in the Journal

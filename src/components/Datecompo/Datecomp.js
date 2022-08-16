@@ -10,7 +10,7 @@ function Datecomp() {
             <span className="font-weight-bold">
               Abstract Submission Deadline
             </span>{" "}
-            &emsp;: August 20, 2022
+            &emsp;: August 25, 2022
           </p>
           <p>
             <span className="font-weight-bold">
