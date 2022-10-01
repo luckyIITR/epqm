@@ -3,29 +3,37 @@ import React from "react";
 var speakers = [
   {
     name: "G. Baskaran",
-    affiliated: "Institute of mathematical sciences, Chennai, India",
+    affiliated: "Institute of Mathematical Sciences, Chennai, India",
     // title: "sor Bhatnagar awardee",
   },
+{
+    name: "Surendra Singh",
+    affiliated: "Bhabha Atomic Research Center, Mumbai, India",
+},
   {
     name: "Suvankar Chakraverty",
-    affiliated: "INST Mohali",
+    affiliated: "Institute of Nano Science and Technology, Mohali, India",
   },
   {
-    name: "Albert Fert",
-    affiliated: "Paris-Saclay University, Paris, France",
+    name: "Manuel Bibes",
+    affiliated: "Laboratoire CNRS/ Thales de l'Université Paris-Saclay, France",
     // title: "sor Nobel Laureate",
   },
+{
+    name: "Debakanta Samal",
+    affiliated: "Institute of Physics, Bhubaneswar, India",
+},
   {
     name: "Arindam Ghosh",
     affiliated: "Indian Institute of Science, Bangalore, India",
   },
   {
     name: "Anil Jain",
-    affiliated: "Bhaba Atomic Research centre (BARC), Mumbai, India",
+    affiliated: "Bhaba Atomic Research Centre, Mumbai, India",
   },
   {
     name: "Kalobaran Maiti",
-    affiliated: "Tata Institute of fundamental research, Mumbai, India",
+    affiliated: "Tata Institute of Fundamental Research, Mumbai, India",
   },
   {
     name: "Anthony James Leggett",
@@ -33,13 +41,13 @@ var speakers = [
     // title: "sor Nobel Laureate",
   },
   {
-    name: "R Ramesh",
+    name: "R. Ramesh",
     affiliated: "University of Berkeley, USA",
   },
 
   {
-    name: "E V Sampathkumaran",
-    affiliated: "Tata Institute of fundamental research, Mumbai, India",
+    name: "E. V. Sampathkumaran",
+    affiliated: "Tata Institute of Fundamental Research, Mumbai, India",
   },
   {
     name: "D. D. Sarma",
@@ -58,7 +66,7 @@ var speakers = [
 
   {
     name: "Alok Shukla",
-    affiliated: "Indian Institute of Technology, Bombay, India",
+    affiliated: "Indian Institute of Technology Bombay, India",
   },
   {
     name: "Kaushik Sen",
@@ -66,16 +74,16 @@ var speakers = [
   },
 
   {
-    name: "A. Taraphder",
-    affiliated: "Indian Institute of Technology, Kharagpur, India",
+    name: "Arghya Taraphder",
+    affiliated: "Indian Institute of Technology Kharagpur, India",
   },
   {
     name: "S. M. Yusuf",
-    affiliated: "Bhabha Atomic Research Center (BARC) Mumbai",
+    affiliated: "Bhabha Atomic Research Center, Mumbai, India",
   },
   {
     name: "C. S. Yadav",
-    affiliated: "Indian Institute of Technology, Mandi, India",
+    affiliated: "Indian Institute of Technology Mandi, India",
   },
   {
     name: "Brijesh Kumar",
@@ -88,23 +96,32 @@ var speakers = [
   },
   {
     name: "Sumiran Pujari",
-    affiliated: "Indian Institute of Technology, Bombay, India",
+    affiliated: "Indian Institute of Technology Bombay, India",
   },
   {
-    name: "Surjeet Singh",
-    affiliated: "IISER Pune, India",
+    name: "Saurabh Basu",
+    affiliated: "Indian Institute of Technology Guwahati, India",
   },
+{   name: "Kaustubh Priolkar",
+    affiliated: "Goa University, India",
+},
+{    name: "Suhas Gangadharaiah",
+     affiliated: "Indian Institute of Science Education and Research Bhopal, India",
+},
+{    name: "Kaushik Parida",
+     affiliated: "Indian Institute of Technology Roorkee, India",
+},
   {
     name: "Rajendra Dhaka",
-    affiliated: "Indian Institute of Technology, Delhi, India",
+    affiliated: "Indian Institute of Technology Delhi, India",
   },
   {
     name: "Subhankar Bedanta",
-    affiliated: "NISER Bhubaneswar, India",
+    affiliated: "National Institute of Science Education and Research Bhubaneswar, India",
   },
   {
     name: "T. V. Ramakrishnan",
-    affiliated: " IISc, India",
+    affiliated: " Indian Institute of Science Bangalore, India",
   },
   {
     name: "S. J. Ray",
@@ -113,11 +130,11 @@ var speakers = [
 
   {
     name: "Siddharth Lal",
-    affiliated: "IISER Kolkata, India",
+    affiliated: "Indian Institute of Science Education and Research Kolkata, India",
   },
   {
     name: "Pratap Raychaudhuri",
-    affiliated: "TIFR, India",
+    affiliated: "Tata Institute of Fundamental Research, Mumbai, India",
   },
   {
     name: "Elbio Dagotto",
