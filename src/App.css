@@ -92,6 +92,10 @@
 /* sponsors  */
 
 .sponsor-logo{
+  max-width: 90%;
+  width: 250px;
+}
+.sponsor-logo2{
   max-width: 100%;
-  width: 500px;
+  width: 300px;
 }
