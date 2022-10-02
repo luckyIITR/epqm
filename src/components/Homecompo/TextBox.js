@@ -34,7 +34,7 @@ function TextBox() {
             </p>
           </div>
         </div> */}
-        <div className="row justify-content-center">
+        <div className="row justify-content-center mt-5">
           <div className="col col-md-11 margin m-2 m-md-0 p-md-2">
             <p className="text-center font-weight-bold h5">
               The conference proceedings will be published online in the Journal
