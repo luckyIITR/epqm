@@ -24,7 +24,7 @@ function TextBox() {
           <span className="date p-2">October 12-14, 2022</span>
         </div>
 
-        <Link to="/papersubmission" className="btnm mt-5">
+        {/* <Link to="/papersubmission" className="btnm mt-5">
           Abstract Submission &#8594;
         </Link>
         <div className="row justify-content-center">
@@ -33,7 +33,7 @@ function TextBox() {
               *Abstract Submssion Deadline is extended to August 30, 2022.*
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="row justify-content-center">
           <div className="col col-md-11 margin m-2 m-md-0 p-md-2">
             <p className="text-center font-weight-bold h5">
