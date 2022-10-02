@@ -3,7 +3,7 @@ import Nav from "./Homecompo/Nav";
 import Logo from "./Homecompo/Logo";
 import logo from "./images/logo.png";
 import logo2 from "./images/serb_logo.png";
-import thermo from "./images/ThermoFisher.webp";
+import thermo from "./images/ThermoFisher.png";
 import brns from "./images/BRNS.jpg";
 import oxford from "./images/oxford.png";
 import Footer from "./Homecompo/Footer";
@@ -30,7 +30,7 @@ function About() {
 
         <div className="row justify-content-around">
           <div className="col-md-4 mb-5">
-            <img src={thermo} alt="IITR" className="sponsor-logo" />
+            <img src={thermo} alt="IITR" className="sponsor-logo2" />
           </div>
           <div className="col-md-4 mb-5">
             <img src={logo2} alt="IITR" className="sponsor-logo" />
