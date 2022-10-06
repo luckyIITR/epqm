@@ -22,7 +22,7 @@ function Papercomp() {
               href="https://www.morressier.com/call-for-abstracts/E-QMAT-2022"
               type="button"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="btn btn-outline-primary"
             >
               Abstract Submission &#8594;
@@ -57,7 +57,7 @@ function Papercomp() {
               href="https://www.creativecommons.org/licenses/by/4.0"
               type="button"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               creativecommons.org/licenses/by/4.0
             </a>
@@ -88,7 +88,7 @@ function Papercomp() {
               href="https://publishingsupport.iopscience.iop.org/ethical-policy-journals/"
               type="button"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               https://publishingsupport.iopscience.iop.org/ethical-policy-journals/
             </a>
@@ -106,7 +106,7 @@ function Papercomp() {
               href="https://publishingsupport.iopscience.iop.org/ethical-policy-journals/"
               type="button"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               https://publishingsupport.iopscience.iop.org/ethical-policy-journals/
             </a>

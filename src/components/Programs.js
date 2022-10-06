@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./Homecompo/Nav";
 import Logo from "./Homecompo/Logo";
-
+import Programpdf from "./ProgramsCompo/Programpdf";
 import Footer from "./Homecompo/Footer";
 
 function Programs() {
@@ -11,9 +11,9 @@ function Programs() {
         <Logo />
         <Nav />
       </div>
-      <div className="container mt-5" style={{ height: "60vh" }}>
+      <div className="container mt-5">
         <p className="text-center h2 pt-3 mb-5 font-weight-bold">Programs</p>
-        <p className="text-center h3">To be announced soon</p>
+        <Programpdf />
       </div>
       <Footer />
     </div>
