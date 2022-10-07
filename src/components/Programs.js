@@ -12,7 +12,7 @@ function Programs() {
         <Nav />
       </div>
       <div className="container mt-5">
-        <p className="text-center h2 pt-3 mb-5 font-weight-bold">Programs</p>
+        <p className="text-center h2 pt-3 mb-5 font-weight-bold">Program</p>
         <Programpdf />
       </div>
       <Footer />

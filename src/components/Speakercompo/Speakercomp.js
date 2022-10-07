@@ -20,6 +20,10 @@ var speakers = [
     // title: "sor Nobel Laureate",
   },
 {
+      name: "Peayush K. Choubey",
+    affiliated: "Indian Institute of Technology Roorkee, India",
+},
+{
     name: "Debakanta Samal",
     affiliated: "Institute of Physics, Bhubaneswar, India",
 },
@@ -124,8 +128,8 @@ var speakers = [
     affiliated: " Indian Institute of Science Bangalore, India",
   },
   {
-    name: "S. J. Ray",
-    affiliated: "Indian Institute of Technology, Patna, India",
+    name: "Saikat Das",
+    affiliated: "Indian Institute of Technology Kharagpur, India",
   },
 
   {
@@ -142,7 +146,7 @@ var speakers = [
   },
   {
     name: "Tamalika Banerjee",
-    affiliated: "University of Groningen",
+    affiliated: "University of Groningen, The Netherlands",
   },
   {
     name: "Saikat Ghosh",
