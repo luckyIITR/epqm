@@ -31,19 +31,19 @@ function TextBox() {
         </div> */}
 
         <div className="d-flex justify-content-center p-2">
-          <Link type="button" className="btn btn-danger" to="/poster">
+          <Link className="btn btn-danger" to="/poster">
             Poster Schedule &#8594;
           </Link>
         </div>
 
         <div className="d-flex justify-content-center p-2">
-          <Link type="button" className="btn btn-danger" to="/map">
+          <Link className="btn btn-danger" to="/map">
             Map &#8594;
           </Link>
         </div>
 
         <div className="d-flex justify-content-center p-2 mb-4">
-          <Link type="button" className="btn btn-danger" to="/contact">
+          <Link className="btn btn-danger" to="/contact">
             Important Phone Numbers &#8594;
           </Link>
         </div>
