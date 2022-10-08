@@ -49,6 +49,11 @@ function Nav() {
               </Link>
             </li>
             <li className="nav-item ">
+              <Link className="nav-link pl-4 pr-4" to="/poster">
+                POSTER SCHEDULE
+              </Link>
+            </li>
+            <li className="nav-item ">
               <Link className="nav-link pl-4 pr-4" to="/registration">
                 REGISTRATION
               </Link>
@@ -64,6 +69,11 @@ function Nav() {
             <li className="nav-item ">
               <Link className="nav-link pl-4 pr-4" to="/sponsors">
                 SPONSORS
+              </Link>
+            </li>
+            <li className="nav-item ">
+              <Link className="nav-link pl-4 pr-4" to="/map">
+                MAP
               </Link>
             </li>
             <li className="nav-item ">

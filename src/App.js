@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Registration from "./components/Registration";
 import Contact from "./components/Contact";
+import Poster from "./components/Poster";
+import Map from "./components/Map";
+
 import Committee from "./components/Committee";
 import Speakers from "./components/Speakers";
 import Programs from "./components/Programs";
@@ -27,6 +30,8 @@ function App() {
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/scope" element={<Scope />} />
         <Route path="/dates" element={<Dates />} />
+        <Route path="/poster" element={<Poster />} />
+        <Route path="/map" element={<Map />} />
       </Routes>
     </Router>
   );

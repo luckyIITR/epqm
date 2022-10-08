@@ -19,6 +19,29 @@ function TextBox() {
         <p id="iit" style={{ lineHeight: "normal", fontWeight: "bold" }}>
           Department of Physics, IIT Roorkee
         </p>
+        <div className="d-flex justify-content-center p-2 mb-3">
+          <a
+            href="https://www.morressier.com/call-for-abstracts/E-QMAT-2022"
+            type="button"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary"
+          >
+            Poster Schedule &#8594;
+          </a>
+        </div>
+
+        <div className="d-flex justify-content-center p-3 mb-3">
+          <a
+            href="https://www.morressier.com/call-for-abstracts/E-QMAT-2022"
+            type="button"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary"
+          >
+            Map &#8594;
+          </a>
+        </div>
         <div>
           <span className="date p-2">October 12-14, 2022</span>
         </div>
