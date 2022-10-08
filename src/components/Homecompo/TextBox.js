@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function TextBox() {
   return (
@@ -19,28 +20,32 @@ function TextBox() {
         <p id="iit" style={{ lineHeight: "normal", fontWeight: "bold" }}>
           Department of Physics, IIT Roorkee
         </p>
-        <div className="d-flex justify-content-center p-2 mb-3">
-          <a
-            href="https://www.morressier.com/call-for-abstracts/E-QMAT-2022"
-            type="button"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary"
-          >
+
+        {/* <div className="row justify-content-center">
+          <div className="col-md-5 card p-3 m-2 m-md-4">
+            <h5 className="card-title font-weight-bold">
+              {value.name} <cite title="Source Title">{value.title}</cite>
+            </h5>
+            <p>{value.affiliated}</p>
+          </div>
+        </div> */}
+
+        <div className="d-flex justify-content-center p-2">
+          <Link type="button" className="btn btn-danger" to="/poster">
             Poster Schedule &#8594;
-          </a>
+          </Link>
         </div>
 
-        <div className="d-flex justify-content-center p-3 mb-3">
-          <a
-            href="https://www.morressier.com/call-for-abstracts/E-QMAT-2022"
-            type="button"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary"
-          >
+        <div className="d-flex justify-content-center p-2">
+          <Link type="button" className="btn btn-danger" to="/map">
             Map &#8594;
-          </a>
+          </Link>
+        </div>
+
+        <div className="d-flex justify-content-center p-2 mb-4">
+          <Link type="button" className="btn btn-danger" to="/contact">
+            Important Contacts &#8594;
+          </Link>
         </div>
         <div>
           <span className="date p-2">October 12-14, 2022</span>
