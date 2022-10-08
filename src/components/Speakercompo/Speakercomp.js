@@ -14,6 +14,10 @@ var speakers = [
     name: "Suvankar Chakraverty",
     affiliated: "Institute of Nano Science and Technology, Mohali, India",
   },
+{
+    name: "P. K. Muduli",
+    affiliated: "Indian Institute of Technology Delhi, India",
+},
   {
     name: "Manuel Bibes",
     affiliated: "Laboratoire CNRS/ Thales de l'Université Paris-Saclay, France",
@@ -74,7 +78,7 @@ var speakers = [
   },
   {
     name: "Kaushik Sen",
-    affiliated: "Indian Institute of Technology, Delhi, India",
+    affiliated: "Indian Institute of Technology Delhi, India",
   },
 
   {
@@ -116,9 +120,9 @@ var speakers = [
      affiliated: "Indian Institute of Technology Roorkee, India",
 },
   {
-    name: "Rajendra Dhaka",
-    affiliated: "Indian Institute of Technology Delhi, India",
-  },
+    name: "Deepshikha Jaiswal-Nagar",
+    affiliated: "Indian Institute of Science Education and Research TVM, India",
+},
   {
     name: "Subhankar Bedanta",
     affiliated: "National Institute of Science Education and Research Bhubaneswar, India",

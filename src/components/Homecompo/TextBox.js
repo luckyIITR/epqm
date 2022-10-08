@@ -44,7 +44,7 @@ function TextBox() {
 
         <div className="d-flex justify-content-center p-2 mb-4">
           <Link type="button" className="btn btn-danger" to="/contact">
-            Important Contacts &#8594;
+            Important Phone Numbers &#8594;
           </Link>
         </div>
         <div>

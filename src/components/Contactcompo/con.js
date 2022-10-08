@@ -20,7 +20,7 @@ function con() {
         </div>
       </div>
       <p className="text-center h2 pt-3 mb-5 font-weight-bold">
-        Important Phone numbers
+        Important Phone Numbers
       </p>
       <div className="row justify-content-center">
         <div className="col-md-6 card m-2 p-3 mb-md-4 mb-3">

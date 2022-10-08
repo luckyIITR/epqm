@@ -9,7 +9,7 @@ function Programpdf() {
     <div className="pt-3 pb-5 all-page-container">
       <Document file={file}>
         {[1, 2, 3].map((page) => (
-          <Page pageNumber={page} width={1200} />
+          <Page pageNumber={page} width={1250} />
         ))}
       </Document>
     </div>
