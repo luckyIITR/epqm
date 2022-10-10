@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Registration from "./components/Registration";
 import Contact from "./components/Contact";
@@ -18,22 +18,22 @@ import "./App.css";
 
 function App() {
   return (
-    <Router basename={"/epqm"}>
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/registration" element={<Registration />} />
-        <Route path="/committee" element={<Committee />} />
-        <Route path="/speakers" element={<Speakers />} />
-        <Route path="/programs" element={<Programs />} />
-        <Route path="/papersubmission" element={<Papersubmission />} />
-        <Route path="/sponsors" element={<Sponsors />} />
-        <Route path="/scope" element={<Scope />} />
-        <Route path="/dates" element={<Dates />} />
-        <Route path="/poster" element={<Poster />} />
-        <Route path="/map" element={<Map />} />
-      </Routes>
-    </Router>
+    <HashRouter>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/registration" component={Registration} />
+        <Route exact path="/committee" component={Committee} />
+        <Route exact path="/speakers" component={Speakers} />
+        <Route exact path="/programs" component={Programs} />
+        <Route exact path="/papersubmission" component={Papersubmission} />
+        <Route exact path="/sponsors" component={Sponsors} />
+        <Route exact path="/scope" component={Scope} />
+        <Route exact path="/dates" component={Dates} />
+        <Route exact path="/poster" component={Poster} />
+        <Route exact path="/map" component={Map} />
+      </Switch>
+    </HashRouter>
   );
 }
 
